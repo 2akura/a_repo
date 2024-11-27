@@ -14,9 +14,9 @@ layout info   = website's design description`,
 
 // Projects data
 const projects = [
-  { name: "Project 1", href: "https://project1.com" },
-  { name: "Project 2", href: "https://project2.com" },
-  { name: "Project 3", href: "https://project3.com" },
+  { name: "Project 1", href: "https://www.w3.org/Provider/Style/dummy.html" },
+  { name: "Project 2", href: "https://www.w3.org/Provider/Style/dummy.html" },
+  { name: "Project 3", href: "https://www.w3.org/Provider/Style/dummy.html" },
 ];
 
 // Typewriter effect
