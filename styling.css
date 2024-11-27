@@ -1,0 +1,68 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* Terminal container */
+#terminal {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Output area */
+#output {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Input container */
+#input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+#input-container span {
+  color: #a00058;
+}
+
+#input {
+  background: none;
+  border: none;
+  color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+  flex-grow: 1;
+}
+
+/* Button styling for projects */
+button {
+  display: block;
+  background-color: #444;
+  color: #fff;
+  border: 1px solid #888;
+  padding: 5px 10px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+}
