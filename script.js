@@ -76,7 +76,7 @@ const init = async () => {
   await typewriter("Press ? for command list\n", 100);
 
   // After setup, display the #Router -> prompt and show input container
-  await typewriter("#Router -> ", 100); // Dynamic #Router -> with typewriter
+  
   inputContainer.style.display = "flex"; // Reveal input container
 };
 
