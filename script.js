@@ -1,5 +1,6 @@
 const output = document.getElementById("output");
-const input = document.getElementById("input");
+const inputContainer = document.getElementById("input-container"); // Select input container
+inputContainer.style.display = "none"; // Hide input container initially
 
 const commands = {
   "?": `show project  = render participated/built project
@@ -28,6 +29,7 @@ const typewriter = (text, delay = 50) =>
       i++;
       if (i >= text.length) {
         clearInterval(interval);
+        output.innerHTML += "\n"; // Add a newline after the text is completed
         resolve();
       }
     }, delay);
@@ -68,10 +70,14 @@ const handleCommand = (cmd) => {
 
 // Initialize terminal
 const init = async () => {
+  // Typewriter animations for initial setup
   await typewriter("Building SSH connection...\n", 100);
   await typewriter("SSH connection successfully created\n", 100);
   await typewriter("Press ? for command list\n", 100);
-  printOutput("#Router -> ");
+
+  // After setup, display the #Router -> prompt and show input container
+  await typewriter("#Router -> ", 100); // Dynamic #Router -> with typewriter
+  inputContainer.style.display = "flex"; // Reveal input container
 };
 
 // Listen for user input
@@ -84,3 +90,5 @@ input.addEventListener("keydown", (e) => {
 });
 
 init();
+
+
