@@ -72,6 +72,10 @@ const handleCommand = (cmd) => {
 const init = async () => {
   // Typewriter animations for initial setup
   await typewriter("Building SSH connection...\n", 100);
+  await typewriter("[ ██████████████████████████ ] 100%\n", 150);
+  await typewriter("[✓] Encryption: AES-256\n", 50);
+  await typewriter("[✓] Authentication: Public Key\n", 50);
+  await typewriter("[✓] Host verified\n", 50);
   await typewriter("SSH connection successfully created\n", 100);
   await typewriter("Press ? for command list\n", 100);
 
