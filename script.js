@@ -75,8 +75,9 @@ const init = async () => {
   await typewriter("encryption:aes256-ctr mac:hmac-sha2-256\n", 150);
   await typewriter("Elliptic Curve Diffie-Hellman Key Exchange Reply(31)\n", 50);
   await typewriter("ECDSA Key fingerprints is SHA256:DKLQ4bZMd\n", 50);
-  await typewriter("[ ██████████████████████████ ] 100%\n", 50);
-  await typewriter("SSH connection successfully created\n", 100);
+  await typewriter("[ ██████", 280);
+  await typewriter("█████████████████████████████████ ]  100%\n", 50);
+  await typewriter("SSH connection successfully created\n", 80);
   await typewriter("Press ? for command list\n", 100);
 
   // After all typewriter animations, add #Router -> and show input container
