@@ -20,17 +20,16 @@ const projects = [
   { name: "Project 3", href: "https://www.w3.org/Provider/Style/dummy.html" },
 ];
 
-// Typewriter effect
+// Typewriter effect without adding unnecessary blank lines
 const typewriter = (text, delay = 50) =>
   new Promise((resolve) => {
     let i = 0;
     const interval = setInterval(() => {
-      output.innerHTML += text[i];
+      output.innerHTML += text[i]; // Append one character at a time
       i++;
       if (i >= text.length) {
         clearInterval(interval);
-        output.innerHTML += "\n"; // Add a newline after the text is completed
-        resolve();
+        resolve(); // Resolve the promise when done
       }
     }, delay);
   });
@@ -68,19 +67,23 @@ const handleCommand = (cmd) => {
   }
 };
 
+
 // Initialize terminal
 const init = async () => {
   // Typewriter animations for initial setup
   await typewriter("Building SSH connection...\n", 100);
-  await typewriter("[ ██████████████████████████ ] 100%\n", 150);
-  await typewriter("[✓] Encryption: AES-256\n", 50);
-  await typewriter("[✓] Authentication: Public Key\n", 50);
-  await typewriter("[✓] Host verified\n", 50);
+  await typewriter("encryption:aes256-ctr mac:hmac-sha2-256\n", 150);
+  await typewriter("Elliptic Curve Diffie-Hellman Key Exchange Reply(31)\n", 50);
+  await typewriter("ECDSA Key fingerprints is SHA256:DKLQ4bZMd\n", 50);
+  await typewriter("[ ██████████████████████████ ] 100%\n", 50);
   await typewriter("SSH connection successfully created\n", 100);
   await typewriter("Press ? for command list\n", 100);
 
-  // After setup, display the #Router -> prompt and show input container
+  // After all typewriter animations, add #Router -> and show input container
+  const promptSpan = document.createElement("span");
   
+  output.appendChild(promptSpan); // Add the #Router -> prompt
+
   inputContainer.style.display = "flex"; // Reveal input container
 };
 
