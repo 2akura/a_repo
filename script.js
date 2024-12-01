@@ -8,9 +8,9 @@ about me      = my information
 contact       = my socials account to reach me
 layout info   = website's design description`,
   "show project": "Projects:",
-  "about me": "Hello, I'm Muhammad Azahari Saiful Bahri.\nRelevant Coursework:Computer Networking, Data Engineering & Statistical Analyst\nSkills:\nRouting protocols and Switching protocols Management:\nARP, OSPFv2, GRE Tunelling, PIM, HSRP, VRRP, IP sla\nVLAN, STP, EtherChannel, Switch Stacking\nRust, Haskell, Python, NumPy, Pandas, PostgreSQL, Cassandra\nFast Learner & Analytical Skill\nMalay, Arabic, Standard Mandarin, English ",
+  "about me": "\nHello, I'm Muhammad Azahari Saiful Bahri.\n\nRelevant Coursework:\nComputer Networking\nData Engineering\nStatistical Analyst\n\nSkills:\nRouting protocols and Switching protocols Management:\nARP, OSPFv2, GRE Tunelling, PIM, HSRP, VRRP, IP sla\nVLAN, STP, EtherChannel, Switch Stacking\n\nProgramming and tools:\nRust, Haskell, Python, NumPy, Pandas, PostgreSQL, Cassandra\n\nSoft skilss:\nFast Learner & Analytical Skill\n\nOthers:\nMalay, Arabic, Standard Mandarin, English ",
   "contact": "Email: yourname@email.com\nPhone: +123456789\nGitHub: https://github.com/yourname\nLinkedIn: https://linkedin.com/in/yourname",
-  "layout info": "This website is inspired by a terminal-based UI. The design reflects the following principles:\n-A focus on simplicity and user-friendliness, ensuring smooth interaction without complexity.\n-An aesthetic that evokes the charm of vintage terminal UIs, paired with an SSH-inspired tunneling vibe and typewriter-style animations during initialization.",
+  "layout info": "\nThis website is inspired by a terminal-based UI. The design reflects the following principles:\n\n-A focus on simplicity and user-friendliness, ensuring smooth interaction without complexity.\n-An aesthetic that evokes the charm of vintage terminal UIs, paired with an SSH-inspired tunneling vibe and typewriter-style animations during initialization.",
 };
 
 // Projects data
