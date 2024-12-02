@@ -8,9 +8,9 @@ about me      = my information
 contact       = my socials account to reach me
 layout info   = website's design description`,
   "show project": "Projects:",
-  "about me": "\nHello, I'm Muhammad Azahari Saiful Bahri.\n\nRelevant Coursework:\nComputer Networking\nData Engineering\nStatistical Analyst\n\nSkills:\nRouting protocols and Switching protocols Management:\nARP, OSPFv2, GRE Tunelling, PIM, HSRP, VRRP, IP sla\nVLAN, STP, EtherChannel, Switch Stacking\n\nProgramming and tools:\nRust, Haskell, Python, NumPy, Pandas, PostgreSQL, Cassandra\n\nSoft skilss:\nFast Learner & Analytical Skill\n\nOthers:\nMalay, Arabic, Standard Mandarin, English ",
-  "contact": "Email: yourname@email.com\nPhone: +123456789\nGitHub: https://github.com/yourname\nLinkedIn: https://linkedin.com/in/yourname",
-  "layout info": "\nThis website is inspired by a terminal-based UI. The design reflects the following principles:\n\n-A focus on simplicity and user-friendliness, ensuring smooth interaction without complexity.\n-An aesthetic that evokes the charm of vintage terminal UIs, paired with an SSH-inspired tunneling vibe and typewriter-style animations during initialization.",
+  "about me": "\nHello, I'm Muhammad Azahari Saiful Bahri.\n\nRelevant Coursework:\nComputer Networking\nData Engineering\nStatistical Analyst\n\nSkills:\nRouting protocols and Switching protocols Management:\nARP, OSPFv2, GRE Tunelling, PIM, HSRP, VRRP, IP sla\nVLAN, STP, EtherChannel, Switch Stacking\n\nProgramming and tools:\nRust, Haskell, Python, NumPy, Pandas, PostgreSQL, Cassandra\n\nSoft skills:\nFast Learner & Analytical Skill\n\nLanguages:\nMalay, Arabic, Standard Mandarin, English ",
+  "contact": "Email: azahari.saiful@gmail.com\nPhone: +60 14 305 0657\nGitHub: https://github.com/2akura",
+  "layout info": "\nThis website is inspired by a terminal-based UI. The design reflects the following principles:\n\n-Focused on simplicity, this design steers clear of the confusion flashy interfaces can create.\n-An aesthetic that evokes the charm of vintage terminal UIs, paired with an SSH-inspired tunneling vibe and typewriter-style animations during initialization.",
 };
 
 // Projects data
