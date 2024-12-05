@@ -86,7 +86,7 @@ const init = async () => {
   await typewriter("[ ██████", 280);
   await typewriter("█████████████████████████████████ ]  100%\n", 50);
   await typewriter("SSH connection successfully created\n", 80);
-  await typewriter("Type ? for command list\n", 70);
+  await typewriter("Type ? for a list of commands.\n", 70);
 
   // After all typewriter animations, add #Router -> and show input container
   const promptSpan = document.createElement("span");
