@@ -8,16 +8,14 @@ about me      = my information
 contact       = my socials account to reach me
 layout info   = website's design description`,
   "show project": "Projects:",
-  "about me": " \n> Hello, I'm Muhammad Azahari Saiful Bahri.\n \n. Relevant Coursework:\n├ Computer Networking\n├ Data Engineering\n└ Statistical Analyst\n \n. Skills:\n├ Routing protocols and Switching protocols Management:\n├─ ARP, OSPFv2, GRE Tunelling, PIM, HSRP, VRRP, IP sla\n└─ VLAN, STP, EtherChannel, Switch Stacking\n \n├ Programming languages and tools:\n└─ Rust, Python, NumPy, Pandas, PostgreSQL, Cassandra\n \n├ Soft skills:\n└─ Fast Learner & Analytical Skill\n \n├ Languages:\n└─ Malay, Arabic, English\n ",
+  "about me": " \n> Hello, I'm Muhammad Azahari Saiful Bahri.\n \n. Relevant Coursework:\n├ Computer Networking\n├ System Engineering\n└ Algorithm Analyse\n \n. Skills:\n├ Routing protocols and Switching protocols Management:\n├─ ARP, OSPFv2, GRE Tunelling, PIM, HSRP, VRRP, IP sla\n└─ VLAN, STP, EtherChannel, Switch Stacking\n \n├ Programming languages and tools:\n└─ Rust, Python, NumPy, Pandas, PostgreSQL, Cassandra\n \n├ Soft skills:\n└─ Fast Learner & Analytical Skill\n \n├ Languages:\n└─ Malay, Arabic, English\n ",
   "contact": " \nEmail: azahari.saiful@gmail.com\nPhone: +60 14 305 0657\nGitHub: https://github.com/2akura\n ",
   "layout info": " \nThis website is inspired by a terminal-based UI. The design reflects the following principles:\n \n- Focused on simplicity, this design steers clear of the confusion flashy interfaces can create.\n \n- An aesthetic that evokes the charm of vintage terminal UIs, paired with an SSH-inspired tunneling vibe and typewriter-style animations.",
 };
 
 // Projects data
 const projects = [
-  { name: "Project 1", href: "https://www.w3.org/Provider/Style/dummy.html" },
-  { name: "Project 2", href: "https://www.w3.org/Provider/Style/dummy.html" },
-  { name: "Project 3", href: "https://www.w3.org/Provider/Style/dummy.html" },
+  { name: "Project 1", href: "https://github.com/2akura/cml-generator" },
 ];
 
 // Typewriter effect without adding unnecessary blank lines
